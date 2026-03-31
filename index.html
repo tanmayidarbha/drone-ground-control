@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Drone Ground Control</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<br>
+<br>
+<h1>Drone Ground Control Interface</h1>
+<br>
+<br>
+<div class="panel">
+    <p><i>Battery:</i> <span id="battery">--</span></p>
+    <p><i>Altitude:</i> <span id="altitude">--</span></p>
+    <p><i>Mode:</i> <span id="mode">--</span></p>
+    <p><i>Status:</i> <span id="status">--</span></p>
+</div>
+<br>
+<br>
+<div class="buttons">
+    <button onclick="setMode('STABILIZE')">Stabilize</button>
+    <button onclick="setMode('ALTHOLD')">AltHold</button>
+    <button onclick="setMode('LOITER')">Loiter</button>
+    <button onclick="setMode('POSHOLD')">PosHold</button>
+    <button onclick="setMode('GUIDED')">Guided</button>
+    <button onclick="setMode('AUTO')">Auto</button>
+    <button onclick="setMode('LAND')">Land</button>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
