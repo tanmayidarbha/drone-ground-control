@@ -88,11 +88,10 @@ It also provides buttons for:
 - GUIDED
 - LOITER
 - AUTO
-- RTL
 - LAND
-- ARM
-- TAKEOFF
-- DISARM
+- STABILIZE
+- ALTHOLD
+- POSHOLD
 
 JavaScript fetches telemetry data from the Node server every second and updates the UI.
 
@@ -140,12 +139,10 @@ It also provides buttons for:
 - GUIDED
 - LOITER
 - AUTO
-- RTL
 - LAND
-- ARM
-- TAKEOFF
-- DISARM
-
+- STABILIZE
+- ALTHOLD
+- POSHOLD
 JavaScript fetches telemetry data from the Node server every second and updates the UI.
 
 ---
